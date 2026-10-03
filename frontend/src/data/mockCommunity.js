@@ -1,0 +1,63 @@
+export const mockPosts = [
+  {
+    id: 'p1',
+    user: 'Alex',
+    color: '#0E7C66',
+    activity: '20 min Full Body Workout',
+    time: '10 min ago',
+    text: 'Alex completed a 20 min Full Body Workout 💪',
+    likes: 12,
+    liked: false,
+    comments: ['Nice work! 🔥', 'Keep the streak going!'],
+  },
+  {
+    id: 'p2',
+    user: 'Nimali',
+    color: '#8E44AD',
+    activity: '5 km Morning Walk',
+    time: '1 hr ago',
+    text: 'Morning walk done before work. Day 3 of the movement challenge! 🌅',
+    likes: 24,
+    liked: true,
+    comments: ['Great start to the day!', 'Love this 🙌', 'Day 3 already, well done'],
+  },
+  {
+    id: 'p3',
+    user: 'Kasun',
+    color: '#E67E22',
+    activity: '30 min Strength Builder',
+    time: '3 hrs ago',
+    text: 'New personal best on push ups today: 25 in a row!',
+    likes: 31,
+    liked: false,
+    comments: ['Beast mode 💪'],
+  },
+  {
+    id: 'p4',
+    user: 'Dilini',
+    color: '#2980B9',
+    activity: '15 min Mobility Flow',
+    time: 'Yesterday',
+    text: 'Stretching helped my sore legs so much. Highly recommend the Mobility Flow plan.',
+    likes: 9,
+    liked: false,
+    comments: [],
+  },
+];
+
+export const mockChallenges = [
+  {
+    id: 'c1',
+    title: '7-Day Movement Challenge',
+    description: 'Move for at least 20 minutes every day for 7 days.',
+    members: 342,
+    joined: false,
+  },
+  {
+    id: 'c2',
+    title: 'Hydration Habit Week',
+    description: 'Log 8 glasses of water daily and share your progress.',
+    members: 187,
+    joined: false,
+  },
+];

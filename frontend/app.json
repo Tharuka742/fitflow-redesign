@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "FitFlow",
+    "slug": "fitflow-redesign",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.fitflow.redesign",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.fitflow.redesign",
+      "buildNumber": "1"
+    }
+  }
+}
